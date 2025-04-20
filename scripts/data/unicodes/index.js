@@ -1,8 +1,3 @@
-const korean = require('./korean');
-const japanese = require('./japanese');
-const chinesetc = require('./chinesetc');
-const chinesesc = require('./chinesesc');
-
 const unicodes = [
   {
     type: 'Latin1',
@@ -90,37 +85,7 @@ const unicodes = [
       'U+ECE0',
       'U+EFCC',
     ],
-  },
-  {
-    type: 'Cyrillic',
-    characters: [
-      'U+0400-045F',
-      'U+0472-0473',
-      'U+0490-049D',
-      'U+04A0-04A5',
-      'U+04AA-04AB',
-      'U+04AE-04B3',
-      'U+04B6-04BB',
-      'U+04C0-04C2',
-      'U+04CF-04D9',
-      'U+04DC-04DF',
-      'U+04E2-04E9',
-      'U+04EE-04F5',
-      'U+04F8-04F9',
-    ],
-  },
-  {
-    type: 'Greek',
-    characters: ['U+0384-038A', 'U+038C', 'U+038E-03A1', 'U+03A3-03CE'],
-  },
-  {
-    type: 'Devanagari',
-    characters: ['U+0900-097F'],
-  },
-  ...korean,
-  ...japanese,
-  ...chinesetc,
-  ...chinesesc
+  }
 ];
 
 module.exports = unicodes;

@@ -1,3 +1,13 @@
+# Trimmed-down repository of original IBM Plex®
+
+See https://github.com/IBM/plex
+
+Changes in this repo:
+
+- Kept monospace only
+- Nothing else yet
+
+
 # IBM Plex® typeface
 
 <p align="center">

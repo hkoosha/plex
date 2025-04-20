@@ -1,20 +1,13 @@
 {
-  "name": "@ibm/plex-mono",
-  "description": "The package of IBM’s typeface, IBM Plex Mono",
+  "name": "@hkoosha/kplex-mono",
+  "description": "Clone of IBM’s typeface, IBM Plex Mono",
   "version": "1.1.0",
-  "repository": "https://github.com/ibm/plex.git",
+  "repository": "https://github.com/hkoosha/plex.git",
   "license": "OFL-1.1",
   "bugs": {
-    "url": "https://github.com/ibm/plex/issues"
+    "url": "https://github.com/hkoosha/plex/issues"
   },
-  "files": [
-    "css",
-    "scss",
-    "fonts/complete/woff/*",
-    "fonts/complete/woff2/*",
-    "fonts/split/woff2/*",
-    "telemetry.yml"
-  ],
+  "files": [ ],
   "publishConfig": {
     "access": "public"
   },
@@ -22,11 +15,7 @@
     "family": "plex-mono"
   },
   "scripts": {
-    "build": "cd ../ && yarn build",
-    "postinstall": "ibmtelemetry --config=telemetry.yml"
+    "build": "cd ../ && yarn build"
   },
-  "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900",
-  "dependencies": {
-    "@ibm/telemetry-js": "^1.6.1"
-  }
+  "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900"
 }
