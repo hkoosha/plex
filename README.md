@@ -1,8 +1,7 @@
-# Clone of IBM Plex®
+# Koosha's Plex
 
-With minor (hastily made) modification to my liking.
-
-See https://github.com/IBM/plex for the original project.
+A clone of IBM Plex® with some (hastily made) modification to my
+liking. See [IBM/plex](https://github.com/IBM/plex) for the original project.
 
 ## Changes
 
