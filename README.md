@@ -1,14 +1,26 @@
-# Trimmed-down repository of original IBM Plex®
+# Clone of IBM Plex®
 
-See https://github.com/IBM/plex
+With minor (hastily made) modification to my liking.
 
-Changes in this repo:
+See https://github.com/IBM/plex for the original project.
 
-- Kept monospace only
-- Nothing else yet
+## Changes
 
+Changes in this project are:
 
-# IBM Plex® typeface
+- Contains only the regular mono variant (TTF)
+- Copied the following glyphs from "Noto Sans Mono"
+    - 0
+    - {
+    - }
+    - &
+    - \#
+
+Done with https://birdfont.org
+
+## Original Project
+
+### IBM Plex® typeface
 
 <p align="center">
   <a href="https://www.ibm.com/plex/">
@@ -26,11 +38,11 @@ Additionally, we have introduced IBM Plex® Math. This highly anticipated releas
 
 Thanks for trying the IBM Plex typeface! We hope you like it.
 
-## Add the IBM Plex typeface to your device
+#### Add the IBM Plex typeface to your device
 
 Please download the latest zip files from our [releases page](https://github.com/IBM/plex/releases) for installation.
 
-### IBM Plex typeface packages
+##### IBM Plex typeface packages
 
 | Package                   | NPM                                                                                    |
 | ------------------------- | -------------------------------------------------------------------------------------- |
